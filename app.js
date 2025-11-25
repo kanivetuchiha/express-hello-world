@@ -37,6 +37,16 @@ app.get('/pokemons', (req, res) => {
     res.json({ pokemons });
 });
 
+app.post('/series', (req, res) => {
+    const series = [
+        "Breaking Bad",
+        "Stranger Things",
+        "The Office"
+    ];
+
+    res.json({ series });
+});
+
 
 
 
