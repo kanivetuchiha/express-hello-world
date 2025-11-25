@@ -21,18 +21,18 @@ app.get('/tico', (req, res) => {
 });
 
 app.get('/pokemons', (req, res) => {
-    const pokemons = [
-        "Caterpie",
-        "Pidgeotto",
-        "Bulbasaur",
-        "Charmander",
-        "Squirtle",
-        "Krabby",
-        "Primeape",
-        "Muk",
-        "Tauros",
-        "Lapras"
-    ];
+    const pokemons = {
+        pokemon1:"Caterpie",
+        pokemon2:"Pidgeotto",
+        pokemon3:"Bulbasaur",
+        pokemon4:"Charmander",
+        pokemon5:"Squirtle",
+        pokemon6:"Krabby",
+        pokemon7:"Primeape",
+       pokemon8: "Muk",
+      pokemon9:"Tauros",
+        pokemon10:"Lapras"
+    };
 
     res.json({ pokemons });
 });
